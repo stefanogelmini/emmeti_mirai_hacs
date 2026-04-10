@@ -23,7 +23,7 @@ Custom integration per interfacciare la pompa di calore **Emmeti Mirai** tramite
 ## Installazione via HACS
 
 1. Vai in **HACS → Integrazioni → ⋮ → Repository personalizzati**
-2. Aggiungi l'URL: `https://github.com/germe/emmeti_mirai`
+2. Aggiungi l'URL: `https://github.com/stefanogelmini/emmeti_mirai_hacs`
 3. Categoria: **Integrazione**
 4. Clicca **Aggiungi**, poi installa **Emmeti Mirai**
 5. Riavvia Home Assistant
