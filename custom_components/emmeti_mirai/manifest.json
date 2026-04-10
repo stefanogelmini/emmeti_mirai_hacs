@@ -1,13 +1,13 @@
 {
   "domain": "emmeti_mirai",
   "name": "Emmeti Mirai",
-  "version": "1.0.0",
-  "documentation": "https://github.com/stefanogelmini/emmeti_mirai_hacs",
-  "issue_tracker": "https://github.com/stefanogelmini/emmeti_mirai_hacs/issues",
-  "dependencies": [],
   "codeowners": ["@stefanogelmini"],
-  "requirements": [],
   "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/stefanogelmini/emmeti_mirai_hacs",
+  "integration_type": "device",
   "iot_class": "local_polling",
-  "integration_type": "device"
+  "issue_tracker": "https://github.com/stefanogelmini/emmeti_mirai_hacs/issues",
+  "requirements": [],
+  "version": "1.0.0"
 }
