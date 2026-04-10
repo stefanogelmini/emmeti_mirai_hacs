@@ -1,0 +1,13 @@
+{
+  "domain": "emmeti_mirai",
+  "name": "Emmeti Mirai",
+  "version": "1.0.0",
+  "documentation": "https://github.com/germe/emmeti_mirai",
+  "issue_tracker": "https://github.com/germe/emmeti_mirai/issues",
+  "dependencies": [],
+  "codeowners": ["@germe"],
+  "requirements": [],
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "integration_type": "device"
+}

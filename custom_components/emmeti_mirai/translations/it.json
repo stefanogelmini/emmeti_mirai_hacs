@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Emmeti Mirai – Connessione Modbus",
+        "description": "Inserisci i parametri di connessione Modbus TCP della pompa di calore Emmeti Mirai.",
+        "data": {
+          "host": "Host / Indirizzo IP Modbus",
+          "port": "Porta TCP (default 502)",
+          "slave_id": "Slave ID (indirizzo unità)",
+          "scan_interval": "Intervallo di polling (secondi)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossibile connettersi al dispositivo Modbus. Verifica indirizzo IP e porta.",
+      "unknown": "Si è verificato un errore imprevisto."
+    },
+    "abort": {
+      "already_configured": "Questo dispositivo è già configurato."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Emmeti Mirai – Opzioni",
+        "data": {
+          "slave_id": "Slave ID (indirizzo unità)",
+          "scan_interval": "Intervallo di polling (secondi)"
+        }
+      }
+    }
+  }
+}
